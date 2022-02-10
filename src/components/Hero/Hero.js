@@ -12,9 +12,9 @@ const Hero = (props) => (
           Mi Portfolio Personal
         </SectionTitle>
         <SectionText>
-        Soy Santiago Alaña un desarrollador Front-end. Tengo una gran pasión por los efectos de interfaz de usuario, las animaciones y la creación de experiencias de usuario. Si desea mas información el boton redirecciona a mi antiguo portfolio.
+        Soy Santiago Alaña un desarrollador Front-end. Tengo una gran pasión por los efectos de interfaz de usuario, las animaciones y la creación de experiencias de usuario.
         </SectionText>
-        <Button onClick={props.handleClick}>Leer Mas</Button>
+        <Button onClick={()=>window.open('https://va-st.github.io/cv', '_blank', 'noreferrer')}>Ver CV</Button>
       </LeftSection>
     </Section>
 );
