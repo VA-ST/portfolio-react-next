@@ -12,7 +12,7 @@ export const projects = [
     title: 'Clon Animal Crossing',
     description:"",
     image: '/images/2.png',
-    tags: ['HTML','CSS', 'JAVASCRIPT', 'BOOTSTRAP'],
+    tags: ['HTML','CSS','SASS', 'JAVASCRIPT', 'BOOTSTRAP'],
     source: 'https://va-st.github.io/clon_animal_crossing/',
     visit: 'https://github.com/VA-ST/clon_animal_crossing',
     id: 1,
